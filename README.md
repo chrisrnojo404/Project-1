@@ -1,3 +1,4 @@
 # Project-1
-Demo project
-This contains instructions
+Demo project.
+This contains instructions.
+Updated file.
