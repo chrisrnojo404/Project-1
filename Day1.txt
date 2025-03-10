@@ -1,6 +1,6 @@
 help("keywords")
 
-Here is a list of the Python keywords.  Enter any keyword to get more help. #Update
+Here is a list of the Python keywords.  Enter any keyword to get more help. #Update #Update2
 
 False               class               from                or
 None                continue            global              pass
