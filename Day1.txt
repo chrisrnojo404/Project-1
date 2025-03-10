@@ -1,0 +1,232 @@
+help("keywords")
+
+Here is a list of the Python keywords.  Enter any keyword to get more help.
+
+False               class               from                or
+None                continue            global              pass
+True                def                 if                  raise
+and                 del                 import              return
+as                  elif                in                  try
+assert              else                is                  while
+async               except              lambda              with
+await               finally             nonlocal            yield
+break               for                 not                 
+
+x=5/2
+x
+2.5
+x=5//2
+x
+2
+x=5.0//2
+x
+2.0
+x**3
+8.0
+5**4
+625
+x=5%2
+x
+1
+x=10
+y=12
+print(x>y)
+False
+print(x<y)
+True
+print(x==y)
+False
+print(x!=y)
+True
+print( x>y and x!=y)
+False
+print( x>y or x!=y)
+True
+print(x<y)
+True
+print(not(x<y))
+False
+
+
+x= 12/2+3*2
+x
+12.0
+x= (12/((2+3)*2))
+x
+1.2
+pow(2,3)#2**3
+8
+max(1,2,3)
+3
+x=125.56767
+y=round(x,2)
+y
+125.57
+x=25
+sqrt(x)
+Traceback (most recent call last):
+  File "<pyshell#31>", line 1, in <module>
+    sqrt(x)
+NameError: name 'sqrt' is not defined
+import math
+math.sqrt(x)
+5.0
+math.floor(125.56)
+125
+math.floor(-125.56)
+-126
+math.ceil(125.56)
+126
+math.ceil(-125.56)
+-125
+c_1=100
+1c_=100
+SyntaxError: invalid decimal literal
+_cd$1=56
+SyntaxError: invalid syntax
+first number=10
+SyntaxError: invalid syntax
+first_number=10
+
+
+
+s="CDAC Noida"
+s[5]
+'N'
+s[8]
+'d'
+s[0:5]
+'CDAC '
+s[5:10]
+'Noida'
+s[ :5]
+'CDAC '
+s[5:]
+'Noida'
+s[:]
+'CDAC Noida'
+s[-1]
+'a'
+s
+'CDAC Noida'
+s[2:-6]
+'AC'
+s[2:-9]
+''
+s[-3:-1]
+'id'
+s[-1:-3]
+''
+s[-1]
+'a'
+s[-3:]
+'ida'
+s1="cdac"
+s2="noida"
+s3=s1+s2
+s3
+'cdacnoida'
+s3=s1*S2
+Traceback (most recent call last):
+  File "<pyshell#20>", line 1, in <module>
+    s3=s1*S2
+NameError: name 'S2' is not defined. Did you mean: 's2'?
+s3=s1*s2
+Traceback (most recent call last):
+  File "<pyshell#21>", line 1, in <module>
+    s3=s1*s2
+TypeError: can't multiply sequence by non-int of type 'str'
+s3=s1*3
+s3
+'cdaccdaccdac'
+len(s3)
+12
+s
+'CDAC Noida'
+s="ioT"
+s.capitalize()
+'Iot'
+s
+'ioT'
+s1=s.capitalize()
+s1
+'Iot'
+s="cdac noida"
+s.count("c")
+2
+s.count("c",1,10)
+1
+s.count("d",1,10)
+2
+s.count("cdac",1,10)
+0
+s.count("cdac",0,10)
+1
+s.count("t",0,10)
+0\
+s.count("t",0,10)
+0
+s="ioT"
+s
+'ioT'
+s.upper()
+'IOT'
+s.lower()
+'iot'
+s
+'ioT'
+s.swapcase()
+'IOt'
+s=" cdac noida is in Sector 62"
+s.title()
+' Cdac Noida Is In Sector 62'
+s.replace("d","x")
+' cxac noixa is in Sector 62'
+s.replace("d","x",1)
+' cxac noida is in Sector 62'
+
+s='1000'
+type(s)
+<class 'str'>
+d=int(s)
+d
+1000
+type(d)
+<class 'int'>
+d=float(s)
+d
+1000.0
+type(d)
+<class 'float'>
+d
+1000.0
+str(d)
+'1000.0'
+chr(65)
+'A'
+ord('A')
+65
+ord('a')
+97
+d=10
+hex(d)
+'0xa'
+bin(d)
+'0b1010'
+
+x="don't"
+x
+"don't"
+x='don't'
+SyntaxError: unterminated string literal (detected at line 1)
+x='don\'t'
+x
+"don't"
+print("Name : Nimesh Address: MV III Delhi Contact No. 9818283775")
+Name : Nimesh Address: MV III Delhi Contact No. 9818283775
+print("Name : Nimesh\nAddress: MV III Delhi\nContact No. 9818283775")
+Name : Nimesh
+Address: MV III Delhi
+Contact No. 9818283775
+print("Name : Nimesh\tAddress: MV III Delhi\tContact No. 9818283775")
+Name : Nimesh	Address: MV III Delhi	Contact No. 9818283775
